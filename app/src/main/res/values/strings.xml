@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">UAS 180030193 1</string>
+    <string name="id_film">ID Film</string>
+    <string name="judul_film">Judul Film</string>
+    <string name="tgl_rilis">Tanggal Rilis</string>
+    <string name="poster_film">Poster</string>
+    <string name="genre_film">Genre Film</string>
+    <string name="sutradara">Sutradara</string>
+    <string name="pemeran">Pemeran</string>
+    <string name="sinopsis">Sinopsis</string>
+    <string name="tambah">Tambah</string>
+    <string name="edit">Edit</string>
+    <string name="hapus">Hapus</string>
+    <string name="bagikan">Share</string>
+    <string name="titik_dua">:</string>
+    <string name="simpan">Simpan</string>
+    <string name="data_film">Data Film</string>
+    <string name="pilih_tgl">Pilih</string>
+</resources>

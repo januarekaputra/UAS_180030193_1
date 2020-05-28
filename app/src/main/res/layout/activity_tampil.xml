@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/medium_margin"
+    tools:context=".TampilActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_judul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/judul_film"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/large_text"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_tanggal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_margin"
+            android:text="@string/tgl_rilis" />
+
+        <ImageView
+            android:id="@+id/iv_film"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_marginTop="@dimen/medium_margin"
+            android:contentDescription="@string/poster_film"
+            app:srcCompat="@drawable/ic_launcher_foreground" />
+
+        <TextView
+            android:id="@+id/tv_genre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_margin"
+            android:text="@string/genre_film"
+            android:textColor="#717171"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/tv_sutradara"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medium_margin"
+            android:text="@string/sutradara"
+            android:textSize="@dimen/medium_text"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_aktor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medium_margin"
+            android:text="@string/pemeran"
+            android:textColor="#858585"
+            android:textSize="@dimen/small_text" />
+
+        <TextView
+            android:id="@+id/tv_sinopsis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/large_margin"
+            android:text="@string/sinopsis"
+            android:textSize="@dimen/medium_text" />
+    </LinearLayout>
+</ScrollView>
